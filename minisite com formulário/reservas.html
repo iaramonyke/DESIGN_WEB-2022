@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>  
+    <title>minsite com formulário</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="principal.css"/>
+  </head>  
+    <body>
+      <h1>
+        <img src="imgs/logo.png" alt="logo do restaurante"/>
+      </h1>  
+        <ol>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="cardapio.html">Nosso Cardápio</a></li>
+          <li><a href="unidades.html">Nossas Unidades</a></li>
+          <li><a href="fale.html">Fale Conosco</a></li>
+          <li><a href="reservas.html">Reservas</a></li>
+          <li><a href="historia.html">Nossa História</a></li>
+        </ol>
+        <form>
+          <div>
+          <label for="Buscar"></label>
+          <input type="search" id="Buscar" placeholder="Buscar">
+          <button><img src="imgs/pesquisa.png" width="20"></button>
+         </div>    
+         </form>    
+        <h2>Reservas</h2>
+         <form>
+          <fieldset>
+            <legend>Formulário de Reservas: </legend>              
+              <div>
+                <label for="nome">Nome: </label>
+              </br>
+                <input type="text" id="nome" />
+              </div>
+               <div>
+                  <label for="tel">Telefone: </label>
+                </br>
+                  <input type="tel" id="tel" />
+                </div>
+                <div>
+                  <label for="email">E-mail: </label>
+                </br>
+                  <input type="email" id="email" />
+                </div
+                <div>
+                  <label for="data">Data Desejada: </label>
+                </br>
+                  <input type="date" id="data"/>
+                </div>            
+                <div>
+                  <label for="hora">Horário: </label>
+                </br>
+                  <input type="time" id="hora"/>
+                </div>              
+                <div>
+                  <label for="nump">Número de pessoas: </label>
+                </br>
+                  <input type="number" id="nump"/>
+                </div>              
+                <div>
+                  <label for="mensagem"> Deixe sua Mensagem:</label>
+                </br>
+                  <textarea id="mensagem"></textarea>
+                </div>              
+      <input type="submit" value="Enviar"/>
+          </fieldset>
+        </form>
+      <address>Rua Olinto Meira, 379, Cidade Alta</address>
+	</body>
+</html>
