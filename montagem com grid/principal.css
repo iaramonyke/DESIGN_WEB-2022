@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono' monospace;
+  }
+  
+  header{
+    background-image: linear-gradient(to left,#7292A6, #224459);
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+  }
+  
+  header h1 a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  main{
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    gap: 1em;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 14em 14em 14em;
+    grid-template-areas: 
+    "k a d d e"
+    "k b f g h"
+    "k c f i i";
+  }
+  
+    .a{grid-area: a;}
+    .b{grid-area: b;}
+    .c{grid-area: c;}
+    .d{grid-area: d;}
+    .e{grid-area: e;}
+    .f{grid-area: f;}
+    .g{grid-area: g;}
+    .h{grid-area: h;}
+    .i{grid-area: i;}
+    nav{ grid-area: k;}
+  
+  nav{
+    background-color: #C5D1D9;
+    padding: 2em;
+  }
+    
+  nav li a{
+    color: #246d8a;
+    font-size: 2em;
+    text-decoration: none;
+  }
+    
+  nav li{
+   list-style-type: none;
+   margin-bottom: 2.8em;
+  }
+  
+  section{
+    background-color: #ececec;
+    padding: 1.5em;
+  }
+    
+  p a{
+    color: #2a718d;
+    border: 0.5px solid #2a718d;
+    text-decoration: none;
+    padding: 0.2em;
+  }
+    
+  section.b li{
+   margin-top: 0.5em; 
+   margin-left: 1.5em; 
+   margin-bottom: 0.5em;
+  }
+    
+  section.d h2{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+    
+  section.i p{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+    
+  section.i li{
+    margin-top: 0.5em;
+    margin-left: 2em;
+  }
+  
+  section.c p, section.e p, section.f p, section.g p, section.h p{
+    text-align: center;
+    padding: 1em;
+    margin-top: 5em; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  section.c{
+    background-image: url(imgs/ellen.jpg);
+  }
+  
+  section.e{
+    background-image: url(imgs/amanda.jpg);
+  }
+  
+  section.g{
+    background-image: url(imgs/georgia.jpg);
+  }
+  
+  section.h{
+    background-image: url(imgs/henrique.jpg);
+  }
+    
+  section.box{
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    filter: grayscale(100%);
+    padding: 0em;
+  }
+  
+  table{
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+    
+  table, tr, td{
+    border: 1px solid white;
+  }
+    
+  td{
+    width: 5em; 
+    padding: 0.2em;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"]{
+    border-radius: 0%;
+    margin-bottom: 0.5em;
+    width: 95%;
+    margin-top: 1em;
+    border: 1px solid black;
+    padding: 1em;
+  }
+  
+  input[type="submit"]{
+    border: 0em;
+    height: 3em; 
+    width: 13em;
+    margin-top: 1em;
+    background-color: black;
+    color: gray;
+  }
+  
+  div.botao{
+    margin-top: 1em;
+    text-align: center;
+  }
+  
+  footer{
+    text-align: center;
+    background-color: #224459;
+    color: white;
+    padding: 3em;
+  }
+  
+    
