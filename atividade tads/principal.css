@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    padding: 3em;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #1C2159,#44C6AC,#44C6AC);
+}
+header h1{
+    font-size: 2.5em;
+}
+header h1 a{
+    color: white;
+    text-decoration: none;
+}
+header li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+    font-size: 1.5;
+}
+header li a{
+    text-decoration: none;
+    color: #1C2159;
+}
+header li a:hover{
+    color: black;
+}
+main{
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80em;
+}
+main section{
+    max-width: 70em;
+}
+main section div{
+    background-color: white;
+    width: 20em;
+    height: 15.5em;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+}
+main section div h2{
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+main div p.leg{
+    color: #535353;
+}
+main section div span{
+    display: flex;
+    justify-content: space-between;
+    color: #BABABA;
+}
+figure img{
+    width: 300px;
+    height: 140px;
+    object-fit: cover;
+    margin-top: 1em;
+}
+aside{
+    background-color: white;
+    height: 56.5em;
+    width: 80em;
+    margin-top: 1em;
+}
+input[type="search"]{
+    background: transparent;
+    border: 3px solid black;
+    width: 20em;
+    padding: 1em;
+    font-size: 1em;
+    height: 3em;
+    margin: 2em 2em 0em 2em;
+}
+aside h2{
+    background-color: whitesmoke;
+    font-size: 1.3em;
+    margin: 1.5em 1.5em 0em 1.5em;
+    padding: 0.5em;
+}
+aside h2.enquete{
+    margin-bottom:1em;
+}
+aside span{
+    font-size: 1.3em;
+    color: black;
+    margin-left: 2em;
+}
+input[type="radio"]{
+    margin: 2em 0em 0em 2em;
+}
+label{
+    font-size: 1.3em;
+}
+input[type="submit"]{
+    background-color: whitesmoke;
+    padding: 0.5em;
+    margin: 2em 2em 0em 2em;
+    width: 5em;
+}
+footer{
+    background-color: #DCDCDC;
+    padding: 3em;
+    color:#1C2159;
+}
